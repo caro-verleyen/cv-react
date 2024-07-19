@@ -1,0 +1,48 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
+
+
+
+
+
+$font-stack:NunitoSans-Regular,sans-serif;
+@font-face {
+  font-family: "NunitoSans-Regular",sans-serif;
+  src: url("../font/NunitoSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+main {
+    font-family: "NunitoSans-Regular";
+    font-weight: 400;
+}
+
+li{
+    font-family: "NunitoSans-Regular";
+    font-weight: 400;
+}
+
+p{
+    font-family: "NunitoSans-Regular";  
+    font-weight: 400;
+}
+Nav{
+    font-family: "NunitoSans-Regular";
+    font-weight: 400;  
+    padding-right: 10px;
+}
+h1{
+    font-family: "NunitoSans-SemiBold";
+    font-weight: 600;
+}
+h4{
+    font-family: "NunitoSans-SemiBold";
+    font-weight: 600;
+}
+
+hr{
+
+    color:#0d6efd ;
+   
+}
