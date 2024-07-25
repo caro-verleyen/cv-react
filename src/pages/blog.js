@@ -34,7 +34,7 @@ function Blog() {
           <div class="col-12">
             <div class="container-fluid">
               <div class="row gy-3 gy-md-4">
-                <div class="col-12 col-lg-4">
+                <div class="col-12 col-lg-4 col-md-6">
                   <div class="card border shadow-sm">
                     <img src={coder} alt="image de code" />
                     <div class="card-body p-3 p-md-4 p-xxl-5 d-flex justify-content-center align-items-center">
@@ -42,7 +42,7 @@ function Blog() {
                         <h4 class="mb-1 text-center">
                           Coder son site en HTML/CSS
                         </h4>
-                        <p class="m-0 text-secondary">
+                        <p class="m-0 ">
                           Some quick example text to build on the card title and
                           make up the bulk ok the card's content
                         </p>
@@ -61,7 +61,7 @@ function Blog() {
                     </div>
                   </div>
                 </div>
-                <div class="col-12 col-lg-4">
+                <div class="col-12 col-lg-4 col-md-6">
                   <div class="card border shadow-sm">
                     <img
                       src={croissance}
@@ -72,7 +72,7 @@ function Blog() {
                         <h4 class="mb-1 text-center">
                           Vendre ses produits sur le web
                         </h4>
-                        <p class="m-0 text-secondary">
+                        <p class="m-0 ">
                           Some quick example text to build on the card title and
                           make up the bulk ok the card's content
                         </p>
@@ -91,7 +91,7 @@ function Blog() {
                     </div>
                   </div>
                 </div>
-                <div class="col-12 col-lg-4">
+                <div class="col-12 col-lg-4 col-md-6">
                   <div class="card border shadow-sm mb-5">
                     <img src={google} alt="image d'un ordinateur" />
                     <div class="card-body p-3 p-md-4 p-xxl-5 d-flex   mx-auto">
@@ -99,7 +99,7 @@ function Blog() {
                         <h4 class="mb-1 text-center ">
                           Se positionner sur Google
                         </h4>
-                        <p class="m-0 text-secondary ">
+                        <p class="m-0  ">
                           Some quick example text to build on the card title and
                           make up the bulk ok the card's content
                         </p>
@@ -118,17 +118,7 @@ function Blog() {
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="container-fluid">
-              <div class="row gy-3 gy-md-4">
-                <div class="col-12 col-lg-4">
+                <div class="col-12 col-lg-4 col-md-6">
                   <div class="card border shadow-sm">
                     <img
                       src={screens}
@@ -139,7 +129,7 @@ function Blog() {
                         <h4 class="mb-1 text-center">
                           Coder son site en responsive design
                         </h4>
-                        <p class="m-0 text-secondary">
+                        <p class="m-0 ">
                           Some quick example text to build on the card title and
                           make up the bulk ok the card's content
                         </p>
@@ -160,7 +150,7 @@ function Blog() {
                     </div>
                   </div>
                 </div>
-                <div class="col-12 col-lg-4">
+                <div class="col-12 col-lg-4 col-md-6">
                   <div class="card border shadow-sm">
                     <img src={seo} alt="image bleu seo" />
                     <div class="card-body p-3 p-md-4 p-xxl-5 d-flex justify-content-center align-items-center">
@@ -168,7 +158,7 @@ function Blog() {
                         <h4 class="mb-1 text-center">
                           Techniques de référencement
                         </h4>
-                        <p class="m-0 text-secondary">
+                        <p class="m-0 ">
                           Some quick example text to build on the card title and
                           make up the bulk ok the card's content
                         </p>
@@ -189,7 +179,7 @@ function Blog() {
                     </div>
                   </div>
                 </div>
-                <div class="col-12 col-lg-4">
+                <div class="col-12 col-lg-4 col-md-6">
                   <div class="card border shadow-sm mb-5">
                     <img
                       src={mozaique}
@@ -198,7 +188,7 @@ function Blog() {
                     <div class="card-body p-3 p-md-4 p-xxl-5 d-flex   mx-auto">
                       <div>
                         <h4 class="mb-1 text-center ">Apprendre à coder</h4>
-                        <p class="m-0 text-secondary ">
+                        <p class="m-0  ">
                           Some quick example text to build on the card title and
                           make up the bulk ok the card's content
                         </p>

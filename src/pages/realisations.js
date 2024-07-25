@@ -31,13 +31,13 @@ function Realisations() {
           <div class="col-12">
             <div class="container-fluid">
               <div class="row gy-3 gy-md-4">
-                <div class="col-12 col-lg-4">
+                <div class="col-12 col-lg-4 col-md-6">
                   <div class="card border shadow-sm">
                     <img src={legumes} alt="image de légumes" />
-                    <div class="card-body p-3 p-md-4 p-xxl-5 d-flex justify-content-center align-items-center">
+                    <div class="card-body p-3 p-md-3 p-xxl-5 sm-4 d-flex justify-content-center align-items-center">
                       <div>
                         <h4 class="mb-1 text-center">Fresh food</h4>
-                        <p class="m-0 text-secondary">
+                        <p class="m-0 ">
                           Réalisation d'un site avec commande en ligne.
                         </p>
                         <div className="text-center">
@@ -57,15 +57,13 @@ function Realisations() {
                     </div>
                   </div>
                 </div>
-                <div class="col-12 col-lg-4">
+                <div class="col-12 col-lg-4 col-md-6">
                   <div class="card border shadow-sm">
                     <img src={japonnais} alt="image sushis" />
-                    <div class="card-body p-3 p-md-4 p-xxl-5 d-flex justify-content-center align-items-center">
+                    <div class="card-body p-3 p-md-3 p-xxl-5 sm-4 d-flex justify-content-center align-items-center">
                       <div>
                         <h4 class="mb-1 text-center">Resaturant Akira</h4>
-                        <p class="m-0 text-secondary">
-                          Réalisation d'un site vitrine
-                        </p>
+                        <p class="m-0 ">Réalisation d'un site vitrine</p>
                         <div className="text-center">
                           <button
                             type="button"
@@ -83,13 +81,13 @@ function Realisations() {
                     </div>
                   </div>
                 </div>
-                <div class="col-12 col-lg-4">
+                <div class="col-12 col-lg-4 col-md-6">
                   <div class="card border shadow-sm mb-5">
                     <img src={zen} alt="image zen lotus" />
                     <div class="card-body p-3 p-md-4 p-xxl-5 d-flex   mx-auto">
                       <div>
                         <h4 class="mb-1 text-center ">Espace bien-etre</h4>
-                        <p class="m-0 text-secondary ">
+                        <p class="m-0  ">
                           Réalisation d'un site vitrine pour un praticien de
                           bien-etre.
                         </p>

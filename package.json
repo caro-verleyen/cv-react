@@ -1,4 +1,5 @@
 {
+
   "name": "cv-react",
   "version": "0.1.0",
   "private": true,
@@ -33,10 +34,13 @@
       "not dead",
       "not op_mini all"
     ],
+    "homepage":"http://karaulyna.alwaysdata.net/",
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
     ]
+    
   }
+  
 }

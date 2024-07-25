@@ -2,19 +2,21 @@ import React from "react";
 import hero from "../assets/hero-bg.jpg";
 import Skills from "../components/skills.js";
 import { FaArrowCircleUp } from "react-icons/fa";
+import { Container } from "react-bootstrap";
 
 function Home() {
   return (
     <main>
       <section className=" position-relative" id="ctaction">
-        <img
-          className=" img-fluid position-absolute top-0 start-0 h-100 w-100  "
-          src={hero}
-          alt="image a propos"
-          style={{ objectFit: "cover" }}
-          id="hero"
-        />
-
+        <Container>
+          <img
+            className=" img-fluid position-absolute top-0 start-0 h-100 w-100  "
+            src={hero}
+            alt="image a propos"
+            style={{ objectFit: "cover" }}
+            id="hero"
+          />
+        </Container>
         <div className="container position-relative">
           <div
             className=" mx-auto text-center py-4  w-75 

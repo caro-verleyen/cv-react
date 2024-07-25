@@ -15,7 +15,7 @@ li {
 }
 
 p {
-  font-family: "NunitoSans-Regular";
+  font-family: "NunitoSans-SemiBold";
   font-weight: 400;
 }
 
@@ -34,7 +34,9 @@ h4 {
   font-family: "NunitoSans-SemiBold";
   font-weight: 600;
 }
-
+.reseau {
+  justify-content: space-between;
+}
 hr {
   color: #0d6efd;
-}/*# sourceMappingURL=index.css.map */
+} /*# sourceMappingURL=index.css.map */

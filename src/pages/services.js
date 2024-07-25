@@ -20,8 +20,8 @@ function Services() {
           Voici les prestations sur lesquelles je peux intervenir
         </p>
         <hr
-          className="mx-auto border-bottom border-primary lh-lg"
-          style={{ size: "4", width: 300 }}
+          className="mx-auto  lh-lg"
+          style={{ size: "10", width: 300, height: 10 }}
         />
       </section>
       <div class="container">
@@ -37,7 +37,7 @@ function Services() {
                     <div class="card-body p-3 p-md-4 p-xxl-5 d-flex justify-content-center align-items-center">
                       <div>
                         <h4 class="mb-1 text-center">UX DESIGN</h4>
-                        <p class="m-0 text-secondary">
+                        <p class="m-0 ">
                           L'UX Design est une méthode de conception centrée sur
                           l'utilisateur. Son but est d'offrir une expérience de
                           navigation optimale à l'internaute.
@@ -54,7 +54,7 @@ function Services() {
                     <div class="card-body p-3 p-md-4 p-xxl-5 d-flex justify-content-center align-items-center">
                       <div>
                         <h4 class="mb-1 text-center">DEVELOPPEMENT WEB</h4>
-                        <p class="m-0 text-secondary">
+                        <p class="m-0 ">
                           Le développement de sites web repose sur l'utilisation
                           des langages HTML, CSS, Javascript et PHP
                         </p>
@@ -72,7 +72,7 @@ function Services() {
                     <div class="card-body p-3 p-md-4 p-xxl-5 d-flex   mx-auto">
                       <div>
                         <h4 class="mb-1 text-center ">REFERENCEMENT</h4>
-                        <p class="m-0 text-secondary ">
+                        <p class="m-0  ">
                           Le référencement naturel d'un site, aussi appelé SEO,
                           consiste à mettre des techniques en oeuvre pour
                           améliorer sa position dans les résultats des moeteurs

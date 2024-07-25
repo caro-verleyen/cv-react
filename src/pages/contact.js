@@ -35,7 +35,7 @@ function Contact() {
         collaboration,merci de remplir le formulaire de contact.
       </p>
       <hr
-        className="mx-auto border-bottom border-info lh-lg"
+        className="mx-auto border-bottom border-primary lh-lg"
         style={{ size: "4", width: 300 }}
       />
       <container className="row mx-auto   ">
@@ -43,7 +43,7 @@ function Contact() {
           style={{ display: "block", width: 750, padding: 30 }}
           className=" col-md-3  "
         >
-          <h4 className="mt-5 fw-bold  border-bottom border-info lh-lg py-2 ">
+          <h4 className="mt-5 fw-bold  border-bottom border-primary  lh-lg py-2 ">
             Formulaire de contact
           </h4>
 
@@ -107,7 +107,7 @@ function Contact() {
           className="  mx-5 "
           style={{ display: "block", width: 750, padding: 30 }}
         >
-          <h4 className="mt-5 fw-bold  border-bottom border-info lh-lg py-2  ">
+          <h4 className="mt-5 fw-bold  border-bottom border-primary lh-lg py-2  ">
             Mes coordonnées
           </h4>
           <div>
