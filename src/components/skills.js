@@ -6,7 +6,7 @@ function Presentation() {
     <section className="container position-relative   ">
       <container>
         <div className="row border shadow-lg mx-5 my-5   ">
-          <div className="mt-0 mx-5 col w-25 p-3 h-75   ">
+          <div className="mt-0 mx-5 col w-25 p-3    ">
             <h4 className="mt-5 fw-bold  border-bottom border-info lh-lg ">
               A PROPOS
             </h4>
@@ -16,7 +16,7 @@ function Presentation() {
               suivi une formation d'{" "}
               <strong>intégrateur-développeur web</strong> au CEF. Au cours de
               cette formation j'ai pu acquérir des bases solides pour travailler
-              dans le domaine du <strong> dévelppement web</strong>. <br />
+              dans le domaine du <strong> développement web</strong>. <br />
               Basé à Lyon, je suis en recherche d'une alternance au sein d'une
               agence digitale pour consolider ma formation de{" "}
               <strong> développeur web full stack</strong>. <br />
@@ -25,15 +25,15 @@ function Presentation() {
             </p>
           </div>
 
-          <div className="col my-5 p-3 col-sm-9 col-lg-6 ">
+          <div className="col my-5 p-3   col-md-6 col-lg-6 col-sm-12  ">
             <div className="col w-75 p-3   ">
               <div>
                 <img
                   src={about}
                   alt="homme à barbe"
-                  className="img-fluid mt-5"
+                  className="container-fluid col-sm-9  "
                 />
-                <div className=" col lh-1 ">
+                <div className=" col lh-1  ">
                   <h5 className="d-flex align-items-center mb-3 fw-bold fs-5">
                     Mes compétences
                   </h5>

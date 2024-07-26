@@ -14,7 +14,7 @@ function Footer() {
         <div className="container">
           {/* section gauche */}
           <div className="row   ">
-            <div className=" col-md-3">
+            <div className=" col-md-6 col-lg-3">
               <h1>John Doe</h1>
               <p className=" col py-4">
                 40 Rue Laure Diebold <br />
@@ -31,7 +31,7 @@ function Footer() {
 
             {/* section droite */}
 
-            <div className=" col-md-3  ">
+            <div className=" col-md-6 col-lg-3 ">
               <h5>Liens utiles</h5>
               <ul className="list-unstyled  ">
                 <li className=" text-body ">
@@ -68,7 +68,7 @@ function Footer() {
                 </li>
               </ul>
             </div>
-            <div className=" col-md-3  ">
+            <div className=" col-md-6 col-lg-3 ">
               <h5>Mes dernières réalisations</h5>
               <ul className="list-unstyled">
                 <li className="text-body">
@@ -98,7 +98,7 @@ function Footer() {
                 </a>
               </ul>
             </div>
-            <div className="col-md-3  ">
+            <div className="col-md-6 col-lg-3 ">
               <h5>Mes derniers articles</h5>
               <ul className="list-unstyled">
                 <li className="text-body">

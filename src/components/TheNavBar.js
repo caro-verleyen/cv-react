@@ -7,7 +7,7 @@ const TheNavBar = () => {
   return (
     <Navbar
       collapseOnSelect
-      expand="sm"
+      expand="md"
       bg="dark"
       data-bs-theme="dark"
       id="top"
@@ -24,13 +24,13 @@ const TheNavBar = () => {
           <Nav.Link as={Link} to="/">
             Home
           </Nav.Link>
-          <Nav.Link as={Link} to="/services">
+          <Nav.Link as={Link} to="/Services">
             Services
           </Nav.Link>
-          <Nav.Link as={Link} to="/realisations">
+          <Nav.Link as={Link} to="/Realisations">
             Réalisations
           </Nav.Link>
-          <Nav.Link as={Link} to="/blog">
+          <Nav.Link as={Link} to="/Blog">
             Blog
           </Nav.Link>
           <Nav.Link as={Link} to="/Contact">

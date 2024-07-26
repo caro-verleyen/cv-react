@@ -7,7 +7,7 @@ import { Container } from "react-bootstrap";
 function Home() {
   return (
     <main>
-      <section className=" position-relative" id="ctaction">
+      <section className=" position-relative " id="ctaction">
         <Container>
           <img
             className=" img-fluid position-absolute top-0 start-0 h-100 w-100  "
@@ -34,6 +34,7 @@ function Home() {
           </div>
         </div>
       </section>
+
       <Skills />
 
       <div className="align-items-start">

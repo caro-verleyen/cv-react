@@ -7,7 +7,7 @@ import { BrowserRouter } from "react-router-dom";
 import { createRoot } from "react-dom/client";
 import TheNavBar from "./components/TheNavBar";
 
-import Footer from "../src/components/footer";
+import Footer from "../src/components/Footer";
 
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
