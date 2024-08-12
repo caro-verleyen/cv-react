@@ -1,6 +1,6 @@
 import React from "react";
 import hero from "../assets/hero-bg.jpg";
-import Skills from "../components/skills.js";
+import Skills from "../components/Skills.js";
 import { FaArrowCircleUp } from "react-icons/fa";
 import { Container } from "react-bootstrap";
 
