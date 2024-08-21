@@ -8,6 +8,7 @@ import Services from "./pages/Services";
 import Realisations from "./pages/Realisations";
 import Blog from "./pages/Blog";
 import Accordeon from "./pages/Accordeon";
+import ProfilGit from "./pages/ProfilGit";
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
         <Route path="/Realisations" element={<Realisations />} />
         <Route path="/Services" element={<Services />} />
         <Route path="/Accordeon" element={<Accordeon />} />
+        <Route path="/ProfilGit" element={<ProfilGit />} />
       </Routes>
     </div>
   );

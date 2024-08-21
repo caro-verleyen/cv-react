@@ -28,7 +28,7 @@ function Home() {
             <h2 className="h2 text-white fs-5 fw-normal lh-lg ">
               Développeur web full stack
             </h2>
-            <a className="btn btn-primary lh-lg" href="#">
+            <a className="btn btn-primary lh-lg" href="/ProfilGit">
               En savoir plus
             </a>
           </div>

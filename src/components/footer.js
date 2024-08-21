@@ -24,7 +24,12 @@ function Footer() {
 
               <div className="col  align-items-end style={{fa-5x}}" id="reseau">
                 <FaTwitterSquare size={"2em"} />
-                <FaGithubSquare size={"2em"} />
+                <a
+                  className="text-decoration-none text-body"
+                  href="https://github.com/github-john-doe"
+                >
+                  <FaGithubSquare size={"2em"} />
+                </a>
                 <FaLinkedin size={"2em"} />
               </div>
             </div>
